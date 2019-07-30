@@ -1,0 +1,21 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enbisys.AVM", "src\Enbisys.AVM\Enbisys.AVM.csproj", "{DE274A8C-70CD-46A3-B3A5-F353263A658F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE274A8C-70CD-46A3-B3A5-F353263A658F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE274A8C-70CD-46A3-B3A5-F353263A658F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE274A8C-70CD-46A3-B3A5-F353263A658F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE274A8C-70CD-46A3-B3A5-F353263A658F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
