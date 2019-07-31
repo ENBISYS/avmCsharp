@@ -10,6 +10,13 @@ Get instant and accurate Property Valuations and Predictive Analytics with our A
 - .NET 4.0 or later
 - Windows Phone 7.1 (Mango)
 
+## Installation
+add the following to packages.config 
+
+```
+<PackageReference Include="Enbisys.AVM" Version="1.0.1" />
+```
+
 ## Dependencies
 
 
