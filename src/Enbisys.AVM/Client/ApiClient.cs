@@ -53,12 +53,12 @@ namespace Enbisys.AVM.Client
         public ApiClient()
         {
             Configuration = Client.Configuration.Default;
-            RestClient = new RestClient("http://localhost");
+            RestClient = new RestClient("https://avm.enbisys.com/api");
         }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ApiClient" /> class
-        /// with default base path (http://localhost).
+        /// with default base path (https://avm.enbisys.com/api).
         /// </summary>
         /// <param name="config">An instance of Configuration.</param>
         public ApiClient(Configuration config)
@@ -73,7 +73,7 @@ namespace Enbisys.AVM.Client
         /// with default configuration.
         /// </summary>
         /// <param name="basePath">The base path.</param>
-        public ApiClient(String basePath = "http://localhost")
+        public ApiClient(String basePath = "https://avm.enbisys.com/api")
         {
            if (String.IsNullOrEmpty(basePath))
                 throw new ArgumentException("basePath cannot be empty");
